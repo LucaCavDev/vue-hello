@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bonus2 Cavicchioli VUE-HELLO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+  </head>
+  <body>
+
+    <h1 id="root">{{message}}</h1>
+    <!-- <img v-bind:src="image"> -->
+    <!-- <div id="root2">
+      <img v-bind:src="img">
+    </div> -->
+    <div id="app">
+      <p v-if="myImage.length > 0"><img v-bind:src="myImage"></p>
+      <button @click="myFunction()">Mostra la paperella</button>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
