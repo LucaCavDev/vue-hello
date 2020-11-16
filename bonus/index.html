@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Cavicchioli VUE-HELLO</title>
+    <title>Bonus Cavicchioli VUE-HELLO</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
@@ -15,7 +15,15 @@
       {{message}} <hr>
       <p>Type here to change the title:</p>
       <input v-model="message">
+      <img v-bind:src="image"><!-- domanda1: funziona sia con :src che con v-bind:src why? -->
+      <div class="">
+
+      </div>
     </h1>
+
+    <!-- <div id="root2">
+      <img v-bind:src="img">
+    </div> -->
 
 
 
